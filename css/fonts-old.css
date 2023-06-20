@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Whyte";
+  src: url("https://umbedu-lb01-production.terminalfour.net/media/umassboston/site-assets/fonts/ABCWhyte-Book.woff");
+  src: url("https://umbedu-lb01-production.terminalfour.net/media/umassboston/site-assets/fonts/ABCWhyte-Book.woff2")
+      format("woff2"),
+    url("https://umbedu-lb01-production.terminalfour.net/media/umassboston/site-assets/fonts/ABCWhyte-Book.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whyte";
+  src: url("https://umbedu-lb01-production.terminalfour.net/media/umassboston/site-assets/fonts/ABCWhyte-Medium.woff");
+  src: url("https://umbedu-lb01-production.terminalfour.net//media/umassboston/site-assets/fonts/ABCWhyte-Medium.woff2")
+      format("woff2"),
+    url("https://umbedu-lb01-production.terminalfour.net/media/umassboston/site-assets/fonts/ABCWhyte-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whyte";
+  src: url("https://umbedu-lb01-production.terminalfour.net//media/umassboston/site-assets/fonts/ABCWhyte-Bold.woff");
+  src: url("https://umbedu-lb01-production.terminalfour.net//media/umassboston/site-assets/fonts/ABCWhyte-Bold.woff")
+      format("woff2"),
+    url("https://umbedu-lb01-production.terminalfour.net/media/umassboston/site-assets/fonts/ABCWhyte-Bold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arizona";
+  src: url("https://umbedu-lb01-production.terminalfour.net/media/umassboston/site-assets/fonts/ABCArizonaSerif-Bold.woff");
+  src: url("https://umbedu-lb01-production.terminalfour.net/media/umassboston/site-assets/fonts/ABCArizonaSerif-Bold.woff2")
+      format("woff2"),
+    url("https://umbedu-lb01-production.terminalfour.net/media/umassboston/site-assets/fonts/ABCArizonaSerif-Bold.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

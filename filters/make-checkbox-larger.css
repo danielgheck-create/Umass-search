@@ -1,0 +1,30 @@
+/* Hide the default checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+
+/* Style the custom checkbox */
+input[type="checkbox"] + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+/* Create the custom checkbox indicator */
+input[type="checkbox"] + label:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px; /* Adjust to make the checkbox larger */
+  height: 20px; /* Adjust to make the checkbox larger */
+  border: 2px solid #ccc; /* Adjust border styles as desired */
+  background-color: #fff; /* Adjust background color as desired */
+}
+
+/* Style the custom checkbox indicator when checked */
+input[type="checkbox"]:checked + label:before {
+  background-color: #ff0000; /* Adjust background color when checked */
+}

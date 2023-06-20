@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toggle Checkboxes</title>
+    <style>
+      .outer-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* .top-ribbon-font {
+        font-family: Whyte;
+        font-weight: 500;
+        font-size: 1rem;
+        font-style: normal;
+      } */
+
+      .border {
+        width: 22rem;
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid #ccc;
+        padding: 1rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        font-family: Whyte;
+        font-weight: 500;
+        font-size: 1.7rem;
+        font-style: normal;
+        color: #487eb8;
+      }
+      .top-filter-title {
+        /* border: 1px solid red; */
+      }
+      .checkbox-container {
+        display: none;
+        font-size: 1.5rem;
+        font-weight: normal;
+        color: #000;
+      }
+
+      .toggle-icon {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .toogle-icon-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid red;
+        width: 100%;
+      }
+    </style>
+
+    <link href="../css/fonts.css" rel="stylesheet" />
+    <!-- fonts.css -->
+  </head>
+  <body>
+    <div class="outer-wrapper">
+      <div class="border">
+        <div class="top-filter-title">
+          <div class="toggle-icon" id="toggle-icon">
+            <div class="toogle-icon-container">
+              <div>Filter Results</div>
+              <div>▼</div>
+            </div>
+          </div>
+
+          <br /><br />
+
+          <div class="checkbox-container">
+            <label for="Programs">
+              <input type="checkbox" id="Programs" /> Programs
+            </label>
+            <br />
+
+            <label for="Events">
+              <input type="checkbox" id="Events" /> Events
+            </label>
+            <br />
+
+            <label for="Faculty">
+              <input type="checkbox" id="Faculty" /> Faculty/Staff
+            </label>
+            <br />
+
+            <label for="News"> <input type="checkbox" id="News" /> News </label>
+            <br />
+            <label for="All">
+              <input type="checkbox" id="All" /> All UMB pages
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    CONTENT Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    Repudiandae, maiores. Repellat dolor possimus harum nobis minus enim nulla,
+    est exercitationem rem quaerat, dolore nostrum a consequatur ipsum veniam
+    aperiam pariatur.
+    <script>
+      const toggleIcon = document.getElementById("toggle-icon");
+      const checkboxContainer = document.querySelector(".checkbox-container");
+
+      toggleIcon.addEventListener("click", function () {
+        const isExpanded = checkboxContainer.style.display === "block";
+        checkboxContainer.style.display = isExpanded ? "none" : "block";
+        toggleIcon.textContent = isExpanded
+          ? "Filter Results                ▼ "
+          : "Filter Results                ▲ ";
+      });
+    </script>
+  </body>
+</html>

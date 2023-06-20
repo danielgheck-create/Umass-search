@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form-container {
+        display: none;
+      }
+
+      .content {
+        transition: margin-top 0.3s ease; /* Add smooth transition */
+        margin-top: 0;
+      }
+
+      .content.opened {
+        margin-top: 200px; /* Adjust the value to match the height of the form */
+      }
+    </style>
+  </head>
+  <body>
+    <button class="collapsible">Open Form</button>
+    <div class="form-container">
+      <form>
+        <!-- Your form fields here -->
+        INTERNAL FORM HERE
+      </form>
+    </div>
+    <div class="content">
+      <!-- Other content here -->
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptates
+      temporibus eligendi, velit tenetur exercitationem perspiciatis debitis
+      molestiae, tempore, facilis nemo quaerat! Sunt voluptate optio
+      perspiciatis unde, dolorum nostrum non nemo labore illo ab soluta
+    </div>
+    <script>
+      document
+        .querySelector(".collapsible")
+        .addEventListener("click", function () {
+          var formContainer = document.querySelector(".form-container");
+          var content = document.querySelector(".content");
+
+          formContainer.style.display =
+            formContainer.style.display === "none" ? "block" : "none";
+          content.classList.toggle("opened");
+        });
+    </script>
+  </body>
+</html>

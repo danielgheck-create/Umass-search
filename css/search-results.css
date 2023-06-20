@@ -1,0 +1,133 @@
+
+
+@import url("fonts.css");
+
+.top-ribbon-font {
+  font-family: Whyte;
+  font-weight: 500;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+.result-title-font {
+  font-family: Whyte;
+  font-weight: bold;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+.body-font {
+    font-family: Whyte;
+    font-weight: normal;
+    font-size: 1rem;
+    font-style: normal;
+    color: #201F1f;
+}
+
+.bottom-medium-font {
+  font-family: Whyte;
+  font-weight: 500;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+.bottom-book-font {
+  font-family: Whyte;
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: normal;
+  color: #201f1f;
+}
+
+.underline-full {
+  position: relative;
+  padding-bottom: max(0.88rem, min(calc(0.83rem + 0.24vw), 1rem));
+  padding-bottom: var(--space-s);
+}
+
+.underline-full::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 0.25rem;
+  border-bottom: 0.25rem solid var(--color-orange);
+}
+
+.bordered {
+  margin-top: 1rem; /* reduces space between upper titles */
+}
+
+.bg-ecru-light {
+  background-color: #FAFAF3 !important;
+}
+
+.search-wrapper {
+  max-width: 700px; margin:0 auto;
+}
+
+.programs-flex {
+  display:flex !important; 
+  justify-content: space-between !important;
+}
+
+.programs-border {
+  border-bottom: 1px solid #CCC; 
+  padding-bottom:1rem;
+}
+
+.event-flex {
+  display:flex; 
+  flex-direction: column; 
+  justify-content: start;
+}
+
+.news-flex {
+  display:flex; 
+  justify-content: start;
+}
+
+.image-panel-padding {
+  padding: 0px 3rem 3rem 3rem;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.rounded-top-corners {
+  border-top-left-radius:30px; 
+  border-top-right-radius:30px;
+}
+
+
+@media (max-width: 650px) {
+  .programs-flex {
+    flex-direction: column;
+  }
+  .search-wrapper {
+    width: 450px;
+  }
+  .event-description {
+    display:none;
+  }
+
+  .underline-full::after {
+    width: 40%;
+  }
+}
+
+/* .box {
+  background-color: blue;
+} */
+
+/* .underline-orange::after {
+  border-color: red var(--color-orange);
+} */
+
+/* NOTES ##############################  */
+/* box bg-ecru-light border-radius shadow-md p-l 
+
+this is the interior card section
+<div class="box bg-ecru-light border-radius shadow-md p-l" data-animation="fade-in-up" data-animate >

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+
+      .dropdown-content label {
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dropdown">
+      <span>Filter</span>
+      <div class="dropdown-content">
+        <label>
+          <input type="checkbox" name="filter" value="option1" /> Option 1
+        </label>
+        <label>
+          <input type="checkbox" name="filter" value="option2" /> Option 2
+        </label>
+        <label>
+          <input type="checkbox" name="filter" value="option3" /> Option 3
+        </label>
+      </div>
+    </div>
+  </body>
+</html>

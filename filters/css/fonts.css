@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Whyte";
+  src: url("fonts/ABCWhyte-Book.woff");
+  src: url("fonts/ABCWhyte-Book.woff2") format("woff2"),
+    url("fonts/ABCWhyte-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whyte";
+  src: url("fonts/ABCWhyte-Medium.woff");
+  src: url("fonts/ABCWhyte-Medium.woff2") format("woff2"),
+    url("fonts/ABCWhyte-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whyte";
+  src: url("fonts/ABCWhyte-Bold.woff");
+  src: url("fonts/ABCWhyte-Bold.woff") format("woff2"),
+    url("fonts/ABCWhyte-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arizona";
+  src: url("fonts/ABCArizonaSerif-Bold.woff");
+  src: url("fonts/ABCArizonaSerif-Bold.woff2") format("woff2"),
+    url("fonts/ABCArizonaSerif-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

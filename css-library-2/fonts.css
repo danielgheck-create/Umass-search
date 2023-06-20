@@ -1,0 +1,36 @@
+
+@font-face {
+  font-family: 'Whyte';
+  src: url('<t4 type="media" id="11002" formatter="path/*" />');
+  src: url('<t4 type="media" id="11003" formatter="path/*" />') format('woff2'),
+      url('<t4 type="media" id="11002" formatter="path/*" />') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whyte';
+  src: url('<t4 type="media" id="11004" formatter="path/*" />');
+  src: url('<t4 type="media" id="11005" formatter="path/*" />') format('woff2'),
+      url('<t4 type="media" id="11004" formatter="path/*" />') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whyte';
+  src: url('<t4 type="media" id="11006" formatter="path/*" />');
+  src: url('<t4 type="media" id="11006" formatter="path/*" />') format('woff2'),
+      url('<t4 type="media" id="11006" formatter="path/*" />') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arizona';
+  src: url('<t4 type="media" id="11008" formatter="path/*" />');
+  src: url('<t4 type="media" id="11009" formatter="path/*" />') format('woff2'),
+      url('<t4 type="media" id="11008" formatter="path/*" />') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
